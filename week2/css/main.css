@@ -1,0 +1,260 @@
+/*------Bryant, Samantha Week 2 Assignment-----*/
+
+/*-------Document-------*/
+
+body{
+	width: 760px;
+	margin: 0 auto;
+	font: .75em/1.5em Arial, Helvetica, sans-serif;
+	background: #fff;
+}
+
+/*--------Header-------*/
+
+
+h1{
+	width: 760px;
+	height: 42px;
+	margin: 10px 0 0 0;
+	text-indent: -9999px;
+	background-color: #000;
+	background-image: url(../images/cfc_logo.png);
+	background-repeat: no-repeat;
+}
+
+h2{
+	color: #e2eaf7;
+	font: 35px 'Sonsie One', cursive;
+	text-shadow: 3px 3px 3px #202b2f;
+	margin: 0;
+}
+
+h3{
+	font-weight: 700;
+	color: #232e30;
+	font: 35px Tangerine, cursive; 
+	margin: 0;
+	padding: 0;
+}
+
+/*----------Navigation--------*/
+
+nav{
+	width: 760px;
+}
+
+nav ul{
+	margin: 0;
+	list-style-type: none;
+	background-color: #000;
+	overflow: hidden;
+}
+
+nav li{
+	width: 100px;
+	margin: 5px;
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	margin: 400px;
+	color: #4e6a91;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #758795;
+}
+
+nav a:active{
+	color: #b8d7fe;
+}
+
+/*---------Featured Content--------*/
+
+
+
+#album_cover{
+	width: 760px;
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	padding-left: 10px;	
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;	
+}
+
+#review{
+	float: right;
+	position: absolute;
+	width: 420px;
+	padding: 5px;
+	padding-top: 30px;
+	padding-left: 350px;
+	padding-right: 10px;
+	
+}
+
+.rev_text{
+	color: #f3fafc;
+	padding: 0 20px 0 10px;
+}
+
+aside{
+	color: #f3fafc;
+	padding: 0 20px 0 10px;
+	float: right;
+	position: absolute;
+	text-align: left;
+	width: 420px;
+	padding: 5px;
+	padding-top: 210px;
+	padding-left: 365px;
+}
+
+.article_footer{
+	color: #f3fafc;
+	padding: 0 20px 0 10px;
+	float: left;
+	position: absolute;
+	width: 200px;
+	padding: 5px;
+	padding-top: 250px;
+	padding-left: 365px;
+}
+
+/*------CTA Buttons-------------*/
+
+#cta_button{
+	display: block;
+	width: 155px;
+	height: 25px;
+	float: right;
+	position: absolute;
+	padding-top: 10px;
+	border-radius: 60px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 13px 'Sonsie One', bold, cursive;
+	color: #22333a;
+	background: -moz-linear-gradient(top,  #2a3940 0%, #6d7f91 55%, #758795 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a3940), color-stop(55%,#6d7f91), color-stop(100%,#758795)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2a3940 0%,#6d7f91 55%,#758795 100%); /* Chrome10+,Safari5.1+ */
+	box-shadow: 0 0 20px #000;
+}
+
+.cta_button{
+	margin-top: 260px;
+	margin-left: 500px;
+}
+
+#cta_button:hover{
+	display: block;
+	width: 155px;
+	height: 25px;
+	float: right;
+	padding-top: 10px;
+	border-radius: 60px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 13px 'Sonsie One', bold, cursive;
+	color: #22333a;
+	background: -moz-linear-gradient(top,  #758795 1%, #6d7f91 55%, #2a3940 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#758795), color-stop(55%,#6d7f91), color-stop(100%,#2a3940)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #758795 1%,#6d7f91 55%,#2a3940 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#cta_but{
+	display: block;
+	width: 155px;
+	height: 25px;
+	padding-top: 10px;
+	border-radius: 60px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 13px 'Sonsie One', bold, cursive;
+	color: #22333a;
+	background: -moz-linear-gradient(top,  #2a3940 0%, #6d7f91 55%, #758795 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a3940), color-stop(55%,#6d7f91), color-stop(100%,#758795)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2a3940 0%,#6d7f91 55%,#758795 100%); /* Chrome10+,Safari5.1+ */
+	box-shadow: 0 0 20px #000;
+}
+
+#cta_but:hover{
+	display: block;
+	width: 155px;
+	height: 25px;
+	padding-top: 10px;
+	border-radius: 60px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 13px 'Sonsie One', bold, cursive;
+	color: #22333a;
+	background: -moz-linear-gradient(top,  #758795 1%, #6d7f91 55%, #2a3940 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#758795), color-stop(55%,#6d7f91), color-stop(100%,#2a3940)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #758795 1%,#6d7f91 55%,#2a3940 100%); /* Chrome10+,Safari5.1+ */
+}	
+
+/*--------Gallery--------------*/
+
+#gallery{
+	float: left;
+	width: 760px;
+	margin-top: 5px;
+}
+
+.gallery ul{
+	display: inline;
+	list-style: none;
+	overflow: hidden;
+}
+
+.gallery li{
+	float: left;
+	margin: 15px;
+	border: 4px solid #1e2c2c;
+	display: block;
+	height: 103px;
+}
+
+
+/*-------Main Content----------*/
+
+.content{
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	margin-top: 100px;
+	padding: 5px;
+}
+
+.external{
+	list-style-type: circle;
+}
+/*----Table and Form Section---*/
+
+#plans{
+	width: 400px;
+	margin-top: 20px;
+	clear: both;
+}
+
+#sign_up{
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+/*--------Footer---------------*/
+
+#bottom{
+	color: #fff;
+	background-color: #2d4051;
+	opacity: .8;
+	text-align: center;
+	clear: both;
+}
