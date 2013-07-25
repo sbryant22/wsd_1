@@ -1,4 +1,4 @@
-/*------Bryant, Samantha Week 2 Assignment-----*/
+/*------Bryant, Samantha Week 3 Assignment-----*/
 
 /*-------Document-------*/
 
@@ -11,13 +11,19 @@ body{
 
 /*--------Header-------*/
 
+header{
+	width: 760px;
+	height: 43px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+}
 
 h1{
 	width: 760px;
 	height: 42px;
 	margin: 10px 0 0 0;
 	text-indent: -9999px;
-	background-color: #000;
+	/*background-color: #000;*/
 	background-image: url(../images/cfc_logo.png);
 	background-repeat: no-repeat;
 }
@@ -46,7 +52,7 @@ nav{
 nav ul{
 	margin: 0;
 	list-style-type: none;
-	background-color: #000;
+	/*background-color: #000;*/
 	overflow: hidden;
 }
 
